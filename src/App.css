@@ -1,38 +1,169 @@
-.App {
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 600;
   text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Overall Container */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Card style for sections */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Heading styles */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form elements */
+input, textarea, select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+  background: #fff;
+}
+
+/* Submit button */
+button[type="submit"] {
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Incident card styles */
+.incident-item {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.incident-item:hover {
+  background: #f0f0f0;
+}
+
+/* Dropdowns layout */
+.select-wrapper {
   display: flex;
-  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* View Details button */
+.incident-item button {
+  margin-top: 10px;
+  background: #28a745;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.incident-item button:hover {
+  background: #218838;
+}
+
+/* Navbar inner content */
+.navbar-content {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+/* Logo style */
+.logo {
+  font-size: 2rem;
+}
+
+/* Incident Form styling */
+/* Form container */
+.incident-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 96%;
+}
+
+/* Form fields */
+.incident-form input,
+.incident-form textarea,
+.incident-form select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+/* Submit button */
+.incident-form button[type="submit"] {
+  padding: 10px 14px;
+  font-size: 1rem;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.incident-form button[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
