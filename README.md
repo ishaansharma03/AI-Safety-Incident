@@ -76,9 +76,8 @@ Build a clean, responsive **AI Safety Incident Dashboard** where users can:
 
 ## 🙌 Thanks for checking it out!
 
-This project was built with ❤️,  
-carefully following the requirements shared by Sparklehood.
+This project was built by carefully following the requirements shared by Sparklehood.
 
-Would love your feedback! 🚀
+Would love your feedback! 
 
 ---
